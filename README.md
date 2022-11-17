@@ -216,6 +216,12 @@ String result = helloService.hello("World"); // 3
 3. 调用 RPC 代理接口的方法，就像调用远程接口方法一样
 
 ###附录
-1.模块功能解析 ![模块功能解析](img/Rpc流程解析-涉及模块.png "模块功能解析")
-2.客户端、服务端、注册中心三者关系 ![客户端、服务端、注册中心三者关系](img/Rpc流程解析-客户端、服务端、注册中心三者关系图.png "客户端、服务端、注册中心三者关系")
-3.整体处理流程 ![处理流程](img/Rpc流程解析-处理流程.png "处理流程")
+0.参考项目：
+    (1)[轻量级分布式 RPC 框架](https://gitee.com/huangyong/rpc)
+    (2)[一个轻量级分布式RPC框架--NettyRpc](https://github.com/luxiaoxun/NettyRpc)
+1.参考文档
+    (1)[轻量级分布式 RPC 框架](https://my.oschina.net/huangyong/blog/361751)
+    (2)[一个轻量级分布式RPC框架--NettyRpc](https://www.cnblogs.com/luxiaoxun/p/5272384.html)
+2.模块功能解析图 ![模块功能解析](img/Rpc流程解析-涉及模块.png "模块功能解析")
+3.客户端、服务端、注册中心三者关系 ![客户端、服务端、注册中心三者关系](img/Rpc流程解析-客户端、服务端、注册中心三者关系图.png "客户端、服务端、注册中心三者关系")
+4.整体处理流程 ![处理流程](img/Rpc流程解析-处理流程.png "处理流程")
